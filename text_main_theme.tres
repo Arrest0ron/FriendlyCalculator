@@ -1,0 +1,5 @@
+[gd_resource type="Theme" format=3 uid="uid://cous2pwctpv0d"]
+
+[resource]
+default_font_size = 36
+/font_sizes/1 = 36
