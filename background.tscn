@@ -11,39 +11,37 @@
 [sub_resource type="Theme" id="Theme_nbafh"]
 
 [node name="Main" type="Node2D"]
-position = Vector2(0, -110)
 
 [node name="Background" type="ColorRect" parent="."]
-offset_left = -258.0
-offset_top = -56.0
-offset_right = 1662.0
-offset_bottom = 1024.0
+offset_right = 1920.0
+offset_bottom = 1080.0
 color = Color(0.31784, 0.754536, 0.504761, 1)
 script = ExtResource("1_76npx")
 
 [node name="EquationInput" type="LineEdit" parent="."]
-offset_left = 200.0
-offset_top = 309.0
-offset_right = 860.0
-offset_bottom = 374.0
+offset_left = 407.0
+offset_top = 375.0
+offset_right = 1397.0
+offset_bottom = 472.5
 theme_override_font_sizes/font_size = 36
 placeholder_text = " Введите любое выражение"
 max_length = 512
 script = ExtResource("1_niq2o")
 
 [node name="CalculateButton" type="Button" parent="."]
-offset_left = 402.0
-offset_top = 672.0
-offset_right = 661.0
-offset_bottom = 717.0
+offset_left = 796.0
+offset_top = 815.0
+offset_right = 996.0
+offset_bottom = 935.0
+theme = ExtResource("6_x7pp1")
 text = "Вычислить!"
 script = ExtResource("3_ih4a2")
 
 [node name="AnswerLabel" type="Label" parent="."]
-offset_left = 137.0
-offset_top = 159.0
-offset_right = 508.0
-offset_bottom = 312.0
+offset_left = 493.0
+offset_top = 235.0
+offset_right = 1049.5
+offset_bottom = 464.5
 theme = SubResource("Theme_nbafh")
 theme_override_font_sizes/font_size = 36
 text = "________________________"
@@ -52,25 +50,26 @@ script = ExtResource("4_5887u")
 [node name="JustAnswerTextLabel" type="Label" parent="AnswerLabel"]
 layout_mode = 0
 offset_left = -125.0
-offset_right = 148.0
-offset_bottom = 153.0
+offset_right = 284.5
+offset_bottom = 229.5
 theme_override_font_sizes/font_size = 36
 text = "Ответ: "
 script = ExtResource("4_5887u")
 
 [node name="ThemeButton" type="Button" parent="."]
-offset_left = 1029.0
-offset_top = 691.0
-offset_right = 1136.0
-offset_bottom = 744.0
+offset_left = 1671.0
+offset_top = 936.0
+offset_right = 1778.0
+offset_bottom = 989.0
+scale = Vector2(2, 2)
 text = "<Тема>"
 script = ExtResource("5_c63u0")
 
 [node name="Button_0" type="Button" parent="."]
-offset_left = 300.0
-offset_top = 450.0
-offset_right = 360.0
-offset_bottom = 510.0
+offset_left = 545.0
+offset_top = 536.0
+offset_right = 635.0
+offset_bottom = 626.0
 theme = ExtResource("6_x7pp1")
 text = "0"
 script = ExtResource("7_w073y")
@@ -78,52 +77,52 @@ script = ExtResource("7_w073y")
 [node name="Button_1" type="Button" parent="Button_0"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "1"
 script = ExtResource("7_w073y")
 
 [node name="Button_2" type="Button" parent="Button_0/Button_1"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "2"
 script = ExtResource("7_w073y")
 
 [node name="Button_3" type="Button" parent="Button_0/Button_1/Button_2"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "3"
 script = ExtResource("7_w073y")
 
 [node name="Button_4" type="Button" parent="Button_0/Button_1/Button_2/Button_3"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "4"
 script = ExtResource("7_w073y")
 
 [node name="Button_5" type="Button" parent="Button_0/Button_1/Button_2/Button_3/Button_4"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "5"
 script = ExtResource("7_w073y")
 
 [node name="Button_6" type="Button" parent="Button_0"]
-offset_top = 80.0
-offset_right = 60.0
-offset_bottom = 140.0
+offset_top = 120.0
+offset_right = 90.0
+offset_bottom = 210.0
 theme = ExtResource("6_x7pp1")
 text = "6"
 script = ExtResource("7_w073y")
@@ -131,45 +130,45 @@ script = ExtResource("7_w073y")
 [node name="Button_7" type="Button" parent="Button_0/Button_6"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "7"
 script = ExtResource("7_w073y")
 
 [node name="Button_8" type="Button" parent="Button_0/Button_6/Button_7"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "8"
 script = ExtResource("7_w073y")
 
 [node name="Button_9" type="Button" parent="Button_0/Button_6/Button_7/Button_8"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "9"
 script = ExtResource("7_w073y")
 
 [node name="Button_plus" type="Button" parent="Button_0/Button_6/Button_7/Button_8/Button_9"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "+"
 script = ExtResource("7_w073y")
 
 [node name="Button_minus" type="Button" parent="Button_0/Button_6/Button_7/Button_8/Button_9/Button_plus"]
 layout_direction = 2
 layout_mode = 0
-offset_left = 80.0
-offset_right = 140.0
-offset_bottom = 60.0
+offset_left = 120.0
+offset_right = 210.0
+offset_bottom = 90.0
 text = "-"
 script = ExtResource("7_w073y")
 

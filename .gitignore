@@ -53,9 +53,9 @@ dist/
 .godot/
 
 
-# Ignore exported files
+# Ignore exported files except apk release
 *.pck
-*.apk
+# *.apk
 *.ipa
 *.exe
 *.dll
